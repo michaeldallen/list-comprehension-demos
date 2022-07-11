@@ -1,3 +1,26 @@
+# list-comprehension-demos
+
+## home, sweet home
+
+    git@github.com:michaeldallen/list-comprehension-demos.git
+
+
+## adopt me
+
+    git subtree add  --message 'mtools git subtree add locator - list-comprehension-demos\nrepo=git@github.com:michaeldallen/list-comprehension-demos.git\nprefix=list-comprehension-demos\nbranch=master' --prefix list-comprehension-demos git@github.com:michaeldallen/list-comprehension-demos.git master --squash
+
+
+## inherit updates from the mother ship
+
+    git subtree pull --prefix list-comprehension-demos git@github.com:michaeldallen/list-comprehension-demos.git master --squash
+
+
+## push our updates to the mother ship
+
+    git subtree push --prefix list-comprehension-demos git@github.com:michaeldallen/list-comprehension-demos.git master --squash
+
+
+
 list-comprehension-demos
 ========================
 
